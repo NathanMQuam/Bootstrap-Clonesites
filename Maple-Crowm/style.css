@@ -1,4 +1,16 @@
-body { min-height: 100vh; display: flex; flex-direction: column; max-width: 100%; overflow:hidden;}
+body { min-height: 100vh; display: flex; flex-direction: column; background-color: #f7f9fa;}
 header{ } 
 main{flex-grow: 1;} 
 footer{ }
+
+.bottom-border-break {
+    border: 0px solid #dee2e6 !important;
+    border-bottom-width: 5px !important;
+}
+.img-logo {
+    max-height: 10vh;
+}
+.banner-row {
+    height: 40%;
+    background-image: url(pexels-chitokan.jpg) center;
+}
