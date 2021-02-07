@@ -1,16 +1,21 @@
 body { min-height: 100vh; display: flex; flex-direction: column; background-color: #f7f9fa;}
-header{ } 
-main{flex-grow: 1;} 
-footer{ }
 
-.bottom-border-break {
-    border: 0px solid #dee2e6 !important;
-    border-bottom-width: 5px !important;
-}
+main{flex-grow: 1;} 
+
+
 .img-logo {
     max-height: 10vh;
 }
 .banner-row {
     height: 40%;
     background-image: url(pexels-chitokan.jpg) center;
+}
+.bg-hero {
+    background-image: url(pexels-chitokan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.height-60{
+    height: 60vh;
 }
